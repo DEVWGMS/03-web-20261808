@@ -1,0 +1,69 @@
+*{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* border: .2rem solid teal; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+/* border: 0.1rem solid rgb(255, 2, 2); */
+height: 4rem;
+display: flex;
+padding: .5rem;
+/* justify-content: center; */
+align-items: center;
+align-content: center;
+background-color: #252323;
+color: #eee;
+
+}
+.logo{
+    border: .2rem solid blue; */
+    background-color: blue;
+    font-weight: bold;
+    width: 1rem;
+    height: 1rem;
+    padding: .7rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 100%;
+    margin-right: .7rem;
+}
+.titulo{
+    /* border: .2rem solid yellow; */
+    width:100% ;
+}
+
+section{
+    /* border: .2rem solid blue; */
+    display: flex;
+    flex:1 ;
+}
+footer{
+    /* border: .2rem solid blue; */
+    height: 4rem;
+    padding: 0.5rem;
+    background-color: #252323;
+    color: #eee;
+
+
+}
+nav{
+    /* border: .2rem solid yellow; */
+    width: 10rem;
+    background-color: #eee;
+    padding: .5rem;
+}
+main{
+    /* border: .2rem solid purple; */
+    display: flex;
+    flex: 1;
+    padding: 0.5rem;
+}

@@ -1,50 +1,154 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/estilo.css">
-    <title>Meu Site</title>
+    <script src="/assets/js/funcionalidade.js"></script>
+    <title>W</title>
+    <script src="https://kit.fontawesome.com/ec3a3fcdd8.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-    <div class="logo">W</div>
-    <h1 class="titulo">Meu Site de Notícias</h1>
+        <div id="logoDoSite" class="logo">W</div>
+        <h1 class="titulo">Futebol alegria</h1>
+        <div class="menu-hamburguer">
+            <i id="hamburguer" class="fa-solid fa-bars"></i>
+        </div>
     </header>
     <section>
-    <nav>
-        <ul class="menu-lateral">
+        <nav>
             <ul class="menu-lateral">
                 <li>
                     <a href="#">
                         <div class="opcao">
                             <div class="icone-inicial">
-                                <i class="fa-duotone fa-thin fa-newspaper"></i>
+                                <i class="fa-solid fa-newspaper"></i>
                             </div>
                             <div class="rotulo">Notícia</div>
-                            <div class="icone-final"></div>
-                            <i class="fa-solid fa-chevron-right"></i>
+                            <div class="icone-final">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
                         </div>
                     </a>
                 </li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>
+                    <a href="#">
+                        <div class="opcao">
+                            <div class="icone-inicial">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="rotulo">Mensagem</div>
+                            <div class="icone-final">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="opcao">
+                            <div class="icone-inicial">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="rotulo">Perfil</div>
+                            <div class="icone-final">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="opcao">
+                            <div class="icone-inicial">
+                                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                            </div>
+                            <div class="rotulo">Sair</div>
+                            <div class="icone-final">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
             </ul>
-            
-        </ul>
-    </nav>
-    <main id="notícias" class="container">
-        <div class="cartão">
-            <img class="imagem-do-cartão" src="/assets/img/mobilidade.png">
-            <section class="corpo-do-cartão">
-                <h1 class="titulo-do-cartão">mobilidade urbana</h1>
-                <p class="classificacao"></p>
-            </section>
-        </div>
-    </main>
+        </nav>
+        <main id="noticias" class="container">
+
+            <div class="cartao">
+                <img class="imagem-do-cartao" src="/Assents/IMG/neymar.png" alt="Neymar em campo durante partida">
+                <section class="corpo-do-cartao">
+                    <h1 class="titulo-do-cartao">Neymar Jr.</h1>
+                    <p class="classificacao">
+                        <span class="categoria-da-noticia">Seleção Brasileira</span>
+                        <span class="data-da-noticia">05/03/2026</span>
+                    </p>
+                    <p class="descricao-da-noticia">
+                        Camisa 10 é destaque em mais uma convocação da seleção.
+                    </p>
+                    <p class="autor-da-noticia">Ryan</p>
+                </section>
+                <a href="#">
+                    <div class="botao-do-cartao">
+                        <div class="rotulo">Leia mais</div>
+                        <div class="icone-final-cartao">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="cartao">
+                <img class="imagem-do-cartao" src="/Assents/IMG/dybala.png" alt="Dybala comemorando gol">
+                <section class="corpo-do-cartao">
+                    <h1 class="titulo-do-cartao">Paulo Dybala</h1>
+                    <p class="classificacao">
+                        <span class="categoria-da-noticia">Futebol Internacional</span>
+                        <span class="data-da-noticia">24/08/2026</span>
+                    </p>
+                    <p class="descricao-da-noticia">
+                        Argentino brilha em partida decisiva pelo clube.
+                    </p>
+                    <p class="autor-da-noticia">Ryanzin</p>
+                </section>
+                <a href="#">
+                    <div class="botao-do-cartao">
+                        <div class="rotulo">Leia mais</div>
+                        <div class="icone-final-cartao">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="cartao">
+                <img class="imagem-do-cartao" src="/Assents/IMG/kaka.png" alt="Kaká em ação durante jogo">
+                <section class="corpo-do-cartao">
+                    <h1 class="titulo-do-cartao">Kaká</h1>
+                    <p class="classificacao">
+                        <span class="categoria-da-noticia">Lendas do Futebol</span>
+                        <span class="data-da-noticia">05/03/2026</span>
+                    </p>
+                    <p class="descricao-da-noticia">
+                        Relembre a trajetória do ex-camisa 10 do Milan e da Seleção.
+                    </p>
+                    <p class="autor-da-noticia">Ryanzão</p>
+                </section>
+                <a href="#">
+                    <div class="botao-do-cartao">
+                        <div class="rotulo">Leia mais</div>
+                        <div class="icone-final-cartao">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </main>
     </section>
-    <footer>
-        &copy, Meu Site, 2026</footer>
+    <footer>&copy, cês cola no bloco com as mina, 2026, 🫩🫩🫩</footer>
 </body>
+
 </html>

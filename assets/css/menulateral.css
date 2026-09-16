@@ -1,0 +1,55 @@
+nav {
+    width: 15rem;
+    background-color: #eee;
+    padding: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+.opcao {
+    display: flex;
+    border-radius: .5rem;
+    padding: .6rem;
+    background-color: #ddd;
+    color: #5e5e5e;
+}
+
+.opcao:hover {
+    background-color: #ccc;
+    color: black;
+    box-shadow: .3rem .3rem .3rem .01rem #ddd;
+    border: .1rem solid #bdbdbd;
+}
+
+.opcao:hover .rotulo {
+    text-align: right;
+}
+
+/* #rotuloSair {
+    text-align: right;
+} */
+
+.opcao:hover .icone-final {
+    opacity: 1;
+}
+
+.icone-inicial {
+    width: 1.5rem;
+}
+
+.rotulo {
+    flex: 1;
+}
+
+.icone-final {
+    width: 1rem;
+    text-align: right;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}

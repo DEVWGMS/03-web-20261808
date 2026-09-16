@@ -1,0 +1,20 @@
+section {
+    display: flex;
+    flex: 1;
+    background-color: gray;
+}
+
+nav {
+    width: 10rem;
+    background-color: #ff0000;
+    padding: .5rem;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: left;
+}

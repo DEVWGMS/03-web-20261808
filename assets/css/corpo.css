@@ -1,12 +1,12 @@
 section {
     display: flex;
     flex: 1;
-    background-color: gray;
+    background-color: white;
 }
 
 nav {
     width: 10rem;
-    background-color: #ff0000;
+    background-color: #b6b4b4;
     padding: .5rem;
 }
 

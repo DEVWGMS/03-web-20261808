@@ -43,11 +43,11 @@
 }
 
 .categoria-da-noticia {
-    color: green;
+    color: rgb(0, 0, 0);
 }
 
 .data-da-noticia {
-    color: red;
+    color: rgb(0, 0, 0);
 }
 
 .descricao-da-noticia {

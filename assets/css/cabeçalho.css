@@ -4,14 +4,14 @@ header {
     align-items: center;
     align-content: center;
     padding: .5rem;
-    background-color: black;
-    color: #eee
+    background-color: rgb(218, 215, 215);
+    color: #000000
 }
 
 .logo {
-    border: .1rem solid rgb(4, 0, 255);
-    background-color: rgb(59, 15, 255);
-    color: #eee;
+    border: .1rem solid rgb(115, 202, 144);
+    background-color: rgb(156, 228, 178);
+    color: #000000;
     font-weight: bold;
     border-radius: 100%;
     width: 1rem;

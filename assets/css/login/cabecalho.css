@@ -1,0 +1,30 @@
+header {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 0.5rem;
+}
+
+.logo {
+    border: 0.1rem blue;
+    background-color: blue;
+    color: #eee;
+    font-weight: bold;
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 0.7rem;
+    box-sizing: content-box;
+}
+
+.titulo {
+    flex: 1;
+    
+
+}

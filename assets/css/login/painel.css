@@ -52,16 +52,58 @@ input::placeholder {
 
 }
 
-.input-grupo input:focus{
+.input-grupo input:focus {
     outline: none;
     border-color: #4a90e2;
     background-color: #404040;
 }
 
-.input-grupo:focus-within i{
+.input-grupo:focus-within i {
     color: #4a90e2;
 }
 
-button{
-    
+button {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #0052cc;
+    color: #eee;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+button:hover {
+    background-color: #1818b0;
+    gap: 0.3rem;
+    box-shadow: 0 0.3rem 0.8rem #0052cc4d;
+}
+
+.links-auxiliares {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.links-auxiliares a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.links-auxiliares a:hover {
+
+    color: #6ba3f5;
+    text-decoration: underline;
+}
+
+.links-auxiliares span {
+    color: #686868;
+    font-weight: bold;
 }
